@@ -13,6 +13,6 @@ accounts.cfg
 keywords.csv
 keyusers.csv
 # keyStatusの情報
-*metadeta*
+*metadata*
 # 開発用
 *.ipynb
