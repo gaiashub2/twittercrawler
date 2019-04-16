@@ -1,0 +1,18 @@
+# .DS_Store
+*.DS_Store
+# .ipynb_checkpoints
+*.ipynb_checkpoints*
+# pycache
+__pycache__/*
+# results内のcsvファイル, pklファイル
+results/*.csv
+results/*.pkl
+# アカウントkey,secretファイル
+accounts.cfg
+# 本番キーワードファイル
+keywords.csv
+keyusers.csv
+# keyStatusの情報
+*metadeta*
+# 開発用
+*.ipynb
