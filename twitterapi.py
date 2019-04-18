@@ -529,8 +529,6 @@ class TwitterAPI:
             print('=== エラー発生 ===')
             print('type: ', str(type(e)))
             print('args: ', str(e.args))
-            print('message: ', e.message)
-            print('e自身：', str(e))
             ret = self.get_virtual_res(error_type)
 
         if str(ret.status_code) == "200":
