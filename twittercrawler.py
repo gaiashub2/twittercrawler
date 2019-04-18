@@ -473,7 +473,7 @@ class TwitterCrawler:
                 msg = ("\n######saved result to ./results/result_crawlNo%s.pkl"
                        "######\n" % file_num)
                 print(msg)
-                laptime = runtime
+                lap_start = int(time.time())
 
             if runtime > full_runtime:
                 file_num += 1
